@@ -42,5 +42,5 @@ ApiKey=YourKey
 | Api  | Url  | Config Name  |
 | ------------ | ------------ | ------------ |
 | DeepL Api Free  | https://www.deepl.com/pro-api  | DeepLFree  |
-
+| DeepL Api | https://www.deepl.com/pro-api | DeepLPro |
 
