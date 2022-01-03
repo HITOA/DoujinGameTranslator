@@ -1,4 +1,5 @@
 #DGTranslator, Machine translation for doujin game file.
+
 This application was made to help translating game file often use  in japanese indie game (Doujin Game) into other languages with machine translation. It was first created for Krkr (KAG) KS file format but is made to be easily extensible.
 **Note** :  There is a desire to implement other file formats in the future.
 
