@@ -15,7 +15,7 @@ Basic Usage :
 **by default it is Krkr so you dont have to specify it**
 One or more path to the file to be translate, you can use dir path, it will try to translate every file in the directory.
 
-Some generic parameters : 
+Some generic parameters :   
 -o --output : specify output directory  
 -l --lang : specify destination language
 
