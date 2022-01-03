@@ -44,3 +44,12 @@ ApiKey=YourKey
 | DeepL Api Free  | https://www.deepl.com/pro-api  | DeepLFree  |
 | DeepL Api | https://www.deepl.com/pro-api | DeepLPro |
 
+## Suported Destination Language
+
+| Language |
+| ------------ |
+| English |
+| Japanese |
+| French |
+| German |
+
