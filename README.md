@@ -1,9 +1,9 @@
-#DGTranslator, Machine translation for doujin game file.
+# DGTranslator, Machine translation for doujin game file.
 
 This application was made to help translating game file often use  in japanese indie game (Doujin Game) into other languages with machine translation. It was first created for Krkr (KAG) KS file format but is made to be easily extensible.
 **Note** :  There is a desire to implement other file formats in the future.
 
-##How to use
+## How to use
 Use a console to run the application. 
 Be sure to have a valid Configuration file (see : Config File)
 
@@ -21,7 +21,7 @@ Some generic parameters :
 
 There is Verb specific parameters, you can see them using *Verb (-h / --help)*
 
-##Config File
+## Config File
 
 Config file (config.ini in root directory of the application) contain api related configuration. like the name of the api you prefer to use (ex : DeepLFree) or other field if needed like Api Key.
 
