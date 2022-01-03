@@ -31,11 +31,14 @@ ApiName=DeepLFree
 ApiKey=YourKey
 ```
 
-##Implemented File Format
+## Implemented File Format
+
 | Game Engine  | File Format  | Verb |
 | ------------ | ------------ | ------------ |
 | Krkr (Kirikiri / KAG) | KS file format  | Krkr  |
-##Implemented Translation Api
+
+## Implemented Translation Api
+
 | Api  | Url  | Config Name  |
 | ------------ | ------------ | ------------ |
 | Free DeepL Api  | https://www.deepl.com/pro-api  | DeepLFree  |
