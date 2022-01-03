@@ -34,6 +34,8 @@ namespace TranslatorNS
             if (!ProcessPathes(obj as BaseTranslationOptions))
                 throw new Exception("not able to process path(es).");
 
+            EndSettings(obj as BaseTranslationOptions);
+
             StartTranslating();
         }
         public static void StartTranslating()
@@ -71,6 +73,10 @@ namespace TranslatorNS
                 fileParser.Save($"{outputDirectory}/{filename}");
                 fileParser.Clean();
             }
+        }
+        public static void EndSettings(BaseTranslationOptions opt)
+        {
+            translationApi.SetLang(opt.lang);
         }
         public static bool ProcessPathes(BaseTranslationOptions opt)
         {
@@ -117,13 +123,18 @@ namespace TranslatorNS
             if (!config.TryGetKey("ApiName", out apiName))
                 throw new Exception("\"ApiName\" field missing in config file.");
 
+            string key;
             switch (apiName)
             {
                 case "DeepLFree":
-                    string key;
                     if (!config.TryGetKey("ApiKey", out key))
                         throw new Exception("DeepLFree need \"ApiKey\" field in config file.");
                     translationApi = new DeepLFreeTranslatorApi(key);
+                    break;
+                case "DeepLPro":
+                    if (!config.TryGetKey("ApiKey", out key))
+                        throw new Exception("DeepLPro need \"ApiKey\" field in config file.");
+                    translationApi = new DeepLProTranslatorApi(key);
                     break;
                 default: return false;
             }

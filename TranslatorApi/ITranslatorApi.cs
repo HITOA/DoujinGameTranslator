@@ -2,6 +2,7 @@
     interface ITranslatorApi
     {
         int GetBatchSize();
+        void SetLang(Lang lang);
         string Translate(string text);
         Task<string> TranslateAsync(string text);
         string[] TranslateBatch(string[] text);
