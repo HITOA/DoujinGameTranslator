@@ -16,7 +16,7 @@ Basic Usage :
 One or more path to the file to be translate, you can use dir path, it will try to translate every file in the directory.
 
 Some generic parameters : 
--o --output : specify output directory
+-o --output : specify output directory  
 -l --lang : specify destination language
 
 There is Verb specific parameters, you can see them using *Verb (-h / --help)*
