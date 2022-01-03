@@ -1,6 +1,7 @@
 # DGTranslator, Machine translation for doujin game file.
 
 This application was made to help translating game file often use  in japanese indie game (Doujin Game) into other languages with machine translation. It was first created for Krkr (KAG) KS file format but is made to be easily extensible.
+
 **Note** :  There is a desire to implement other file formats in the future.
 
 ## How to use
@@ -12,7 +13,6 @@ Basic Usage :
 
 *Krkr* is a verb, it specify wich file format you want to translate.
 **by default it is Krkr so you dont have to specify it**
-
 One or more path to the file to be translate, you can use dir path, it will try to translate every file in the directory.
 
 Some generic parameters : 
