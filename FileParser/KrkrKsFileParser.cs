@@ -1,4 +1,7 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using TranslatorNS.Options;
 
 namespace TranslatorNS.FileParser

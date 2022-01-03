@@ -15,7 +15,7 @@ namespace TranslatorNS.FileParser
         {
             int size = ignoreFirst ? 1 : 0;
 
-            while (pos + size < str.Length) {
+            while (pos + size < str.Length - 1) {
                 size++;
                 if (str[pos + size] == stopchar)
                     break;
@@ -28,7 +28,7 @@ namespace TranslatorNS.FileParser
         {
             int size = ignoreFirst ? 1 : 0;
 
-            while (pos + size < str.Length)
+            while (pos + size < str.Length - 1)
             {
                 size++;
                 if (stopchar.Contains(str[pos + size]))

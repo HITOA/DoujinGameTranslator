@@ -3,6 +3,10 @@ using TranslatorNS.Options;
 using TranslatorNS.FileParser;
 using IniParser;
 using IniParser.Model;
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace TranslatorNS
 {

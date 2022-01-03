@@ -1,4 +1,6 @@
 ﻿using CommandLine;
+using System.Collections.Generic;
+using TranslatorNS.TranslatorApi;
 
 namespace TranslatorNS.Options
 {
@@ -9,5 +11,8 @@ namespace TranslatorNS.Options
 
         [Option('o', "output", Default = null, HelpText = "Specify output directory.")]
         public string? outputDir { get; set; }
+
+        [Option('l', "lang", Default = Lang.English, HelpText = "Destination language for translation.")]
+        public Lang lang { get; set; }
     }
 }

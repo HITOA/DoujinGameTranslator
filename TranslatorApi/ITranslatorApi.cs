@@ -1,4 +1,6 @@
-﻿namespace TranslatorNS.TranslatorApi {
+﻿using System.Threading.Tasks;
+
+namespace TranslatorNS.TranslatorApi {
     interface ITranslatorApi
     {
         int GetBatchSize();

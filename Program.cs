@@ -1,4 +1,6 @@
 ﻿using CommandLine;
+using System;
+using System.Linq;
 using System.Reflection;
 
 namespace TranslatorNS
