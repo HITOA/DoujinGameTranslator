@@ -53,3 +53,11 @@ ApiKey=YourKey
 | French |
 | German |
 
+## Example
+ 
+Example from the game 白桜ガールズファイト！
+Translated part of scenario_1.ks
+
+Before : ![](https://i.imgur.com/9GLCYTx.png)
+
+After : ![](https://i.imgur.com/zv0qFPe.png)
